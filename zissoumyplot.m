@@ -1,6 +1,6 @@
-function zissoumyplot(h)
+function zissoumyplot(hfigure)
 
-% function zissoumyplot(h)
+% function zissoumyplot(hfigure)
 %
 % Make your plots look just like they escaped from The Life Aquatic.
 % Changes the colormap to Zissou and fonts to Helvetica.
@@ -18,8 +18,9 @@ end
 colormap(zissou)
 
 % change all the fonts on the plot to futura
-set(findall(hfigure,'type','text'),'fontSize',14, 'fontname', 'futura', 'fontweight', 'normal')
-set(gca,'fontSize',14, 'fontname', 'futura', 'fontweight', 'normal')
+set(findall(hfigure,'type','text'),'fontSize',16, 'fontname', 'futura', 'fontweight', 'normal')
+% set(gca,'fontSize',14, 'fontname', 'futura', 'fontweight', 'normal')
+set(gca, 'fontname', 'futura', 'fontweight', 'normal')
 
 % Zissouify the title
 htitle = get(gca, 'title'); 
@@ -29,4 +30,5 @@ tstring = upper(get(htitle, 'string'));
 set(htitle, 'string', tstring)
 
 % change the font and size of the title
-set(htitle, 'fontsize', 24, 'fontname', 'futura', 'color', 'k', 'fontweight', 'normal')
+% set(htitle, 'fontsize', 24, 'fontname', 'futura', 'color', 'k', 'fontweight', 'normal')
+set(htitle, 'fontname', 'futura', 'fontweight', 'normal')
