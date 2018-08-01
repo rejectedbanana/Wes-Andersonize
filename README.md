@@ -3,7 +3,7 @@
 Make your matlab plots look they came directly from The Life Aquatic with Steve Zissou. Inspired by and translated from the Wes Anderson Palettes R package (https://github.com/karthik/wesanderson)
 
 ### zissoumyplot.m function
-Changes all fonts in current figure to Futura and changes the colormap to zissou.mThe Futura Font must be installed on your computer for zissoumyplot to work properly.
+Changes all fonts in current figure to Futura and changes the colormap to zissou.m. The Futura Font must be installed on your computer for zissoumyplot to work properly.
 
 ### zissou.m colormap 
 Colormap directly translated from https://github.com/karthik/wesanderson#the-life-aquatic
